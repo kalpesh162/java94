@@ -19,11 +19,9 @@ class Example01 {
 	 	System.out.println("d "+d);
 	 	System.out.println("e "+e);
 
-
 	 	int result=e*10000+d*1000+c*100+b*10+a*1;
 
 	 	System.out.println(result);
-
 	 }
 	
 }

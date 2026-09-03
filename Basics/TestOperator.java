@@ -1,5 +1,4 @@
 
-
 class TestOperator {
 
 	public static void main(String[] args) {
@@ -17,7 +16,10 @@ class TestOperator {
 		double div=n1/n2;
 		System.out.println("Division         "+div);
 		System.out.println("Division         "+(11/3.0));
-
+        // NOte Point  int/int  --> int
+        // double/int --->double
+        // int/double---> double
+        // double/double --->double
 	}
 	
 }
