@@ -1,9 +1,9 @@
 /*
 54321
-5432
-543
-54
-5
+4321
+321
+21
+1
 */
 import java.util.Scanner;
 class Example02 {
