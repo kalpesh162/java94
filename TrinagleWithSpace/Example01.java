@@ -7,7 +7,7 @@ class Example01{
 		n=scanner.nextInt();
 
 		for(int i=1;i<=n;i++){
-			for(int sp=i;sp<n;sp++)
+			for(int sp=i;sp<n;sp++)  // for(int sp=5;sp>i;sp--)
 				System.out.print(" ");
 
 

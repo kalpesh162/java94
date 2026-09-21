@@ -14,16 +14,15 @@ class Example04{
 		n=scanner.nextInt();
 
 		for(int i=1;i<=n;i++){
+
 			for(int sp=i;sp<n;sp++) 
 				System.out.print(" ");
-
 
 			for(int j=1;j<=i;j++)   
 				System.out.print(j);
 
 			System.out.println();	
 		}
-
 
 	}
 }
