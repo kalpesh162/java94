@@ -18,7 +18,6 @@ class Example07{
 		Scanner scanner=new Scanner(System.in);
 		n=scanner.nextInt();
 		for(int i=1;i<=n;i++){
-
 			for(int sp=i;sp<n;sp++)
 				System.out.print(" ");
 
@@ -30,7 +29,7 @@ class Example07{
 
 			System.out.println();	
 		}
-
+		
 		for(int i=n-1;i>=1;i--){
 			  for(int sp=i;sp<n;sp++)
 			  	System.out.print(" ");

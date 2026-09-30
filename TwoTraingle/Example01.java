@@ -18,7 +18,6 @@ class Example01{
 			if(i==n){
 				for(int sp=1;sp<2*n;sp++)
 					System.out.print("*");
-
 			}
 			else{
 
@@ -35,7 +34,6 @@ class Example01{
 			System.out.println();	
 		}
 		
-	
 	}
 	
 }
