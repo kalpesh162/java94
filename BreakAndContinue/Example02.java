@@ -12,14 +12,12 @@ class Example02 {
 
 		for(int i=1;i<=10;i++){
 			 
-			 if(i==5){
-				
+			 if(i==5){		
 			 }
 			 else
 				System.out.println(i);	 
 		}
 		
-
 	}
 	
 }
