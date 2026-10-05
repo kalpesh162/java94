@@ -79,27 +79,27 @@ class Example05  {
       */
 
         for (int i = 1; i <= 8; i++) {
-    for (int j = 1; j <= 40; j++) {
+            for (int j = 1; j <= 40; j++) {
 
-        if (i == 1 || i == 8 || j == 1 || j == 40) {
-            System.out.print("*");
-        } 
-        else if (i == 2 && j == 3) {
-            System.out.printf("%-15s : %-10.2f", bs, basicSalary); break;
-        } 
-        else if (i == 3 && j == 3) {
-            System.out.printf("%-15s : %-10.2f", hra1, hra); break;
-        } 
-        else if (i == 4 && j == 3) {
-            System.out.printf("%-15s : %-10.2f", da1, da); break;
-        } 
-        else if (i == 5 && j == 3) {
-            System.out.printf("%-15s : %-10.2f", gross, grossSalary); break;
-        } 
-        else {
-            System.out.print(" ");
-        }
-    }
+                if (i == 1 || i == 8 || j == 1 || j == 40) {
+                    System.out.print("*");
+                } 
+                else if (i == 2 && j == 3) {
+                    System.out.printf("%-15s : %-10.2f", bs, basicSalary); break;
+                } 
+                else if (i == 3 && j == 3) {
+                    System.out.printf("%-15s : %-10.2f", hra1, hra); break;
+                } 
+                else if (i == 4 && j == 3) {
+                    System.out.printf("%-15s : %-10.2f", da1, da); break;
+                } 
+                else if (i == 5 && j == 3) {
+                    System.out.printf("%-15s : %-10.2f", gross, grossSalary); break;
+                } 
+                else {
+                    System.out.print(" ");
+                }
+            }
     System.out.println();
 }
 
