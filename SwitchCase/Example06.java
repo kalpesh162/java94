@@ -2,12 +2,17 @@ import java.util.Scanner;
 class Example06 {
 
 	public static void main(String[] args) {
+			char letter;
 			Scanner scanner=new Scanner(System.in);
+			do{
 			System.out.println("Enter Num1");
 			int num1=scanner.nextInt();
 			System.out.println("Enter Num2");
 			int num2=scanner.nextInt();
 			int res;
+		
+			
+
 			System.out.println("****OPERATION MENU ******");
 			System.out.println("\t + \t");
 			System.out.println("\t - \t");
@@ -15,6 +20,7 @@ class Example06 {
 			System.out.println("\t / \t");
 			System.out.println("------------------------------");
 			System.out.println("ENTER ");
+			
 			char symbol=scanner.next().charAt(0);
 
 			switch (symbol) {
@@ -34,6 +40,10 @@ class Example06 {
 					default: System.out.println("NOT VALID OPERATION");
 							
 			}
+			System.out.println("ENter Y or   y to continue  ....");
+			letter=scanner.next().charAt(0);
+
+		}while(letter=='Y' || letter=='y');
 
 	}
 	
