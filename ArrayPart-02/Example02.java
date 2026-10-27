@@ -30,6 +30,7 @@ public class Example02 {
 
         // Array Craete
         int num[]=new int[size];
+        
 
         inputArray(num);
 
