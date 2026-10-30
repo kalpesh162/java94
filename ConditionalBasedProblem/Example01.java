@@ -290,24 +290,3 @@ User → read-only
 Backend double-checks role before delete/update
 
 
-/*Write a Java program to check whether a given year is a leap year or not.*/
-
-import java.util.Scanner;
-
-class Example01{
-    public static void main(String[] args) {
-        int year;
-        Scanner scanner=new Scanner(System.in);
-        System.out.println("ENter Year : " );
-        year=scanner.nextInt();
-
-        if(year%4==0){
-             System.out.println("Leap Year");
-        }
-        else{
-            System.out.println("NOT Leap Year");
-        }
-        
-    }
-}
-
