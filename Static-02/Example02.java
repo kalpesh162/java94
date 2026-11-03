@@ -9,7 +9,7 @@ class Example02 {
 		System.out.println("===>  "+args.length);
 
 		for(int i=0;i<args.length;i++)
-			System.out.println(args[i]);
+			System.out.println(args[i]);  // Integer.parseInt(args[i])
 
 	}
 
