@@ -78,6 +78,15 @@ public class Example06 {
 		}
 	}
 
+	public static Employee findEmployeeById(int id,Employee[] emp){
+		for(Employee emplyoee : emp){
+			   if(emplyoee.getId()==id)
+			   	return emplyoee;
+		}
+
+		return  null;
+	}
+
 
 	public static void main(String[] args) {
 		int size;
