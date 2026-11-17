@@ -9,7 +9,6 @@ class Employee{
 	private String name;
 	private double salary;
 
-
 	// static Block  
 	{
 		nextId=random.nextInt(1000);

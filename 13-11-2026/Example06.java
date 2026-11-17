@@ -78,6 +78,7 @@ public class Example06 {
 		}
 	}
 
+  // such API
 	public static Employee findEmployeeById(int id,Employee[] emp){
 		for(Employee emplyoee : emp){
 			   if(emplyoee.getId()==id)
