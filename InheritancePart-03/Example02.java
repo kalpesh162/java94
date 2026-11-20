@@ -49,7 +49,7 @@ public  class Example02 {
 		
 		//Art art=new Art();
 		//Drawing draw=new Drawing();
-		Cartoon cartoon=new Cartoon();
+		//Cartoon cartoon=new Cartoon();
 	}
 	
 }
