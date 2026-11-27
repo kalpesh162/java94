@@ -4,6 +4,10 @@ class A{
 	static void f1(){
 		System.out.println("A class f1()");
 	}
+
+	void f2(){
+		
+	}
 }
 class B extends A{
 	static int x=111;
@@ -20,7 +24,7 @@ class B extends A{
 class App03{
 	public static void main(String[] args) {
 		  A a1=new B();
-		  a1.f1();  
-		  System.out.println(a1.x);  
+		  a1.f1();  // A.f1()  
+		  System.out.println(a1.x);  // A.x  
 	}
 }
